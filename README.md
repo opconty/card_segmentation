@@ -1,6 +1,6 @@
 # Identity Document detection and classification evaluation results on midv500/2019/2020 dataset with different models
 
-<video src="material/demo.mp4" controls="controls" style="max-width: 640px;"></video>
+![](material/demo.gif)
 
 We split midv2020 dataset into training-set and validation-set, see [train.txt](material/midv2020_trainval_split/train.txt) and [val.txt](material/midv2020_trainval_split/val.txt) for details.
 
