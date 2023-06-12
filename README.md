@@ -9,6 +9,18 @@ we train a series of models on midv2020 training-set and evaluate on midv2020 va
 Identity Document detection and classification can be obtained via object detection-based, instance segmentation-based and semantic segmentation-based methods, we select one typical and efficient model respectively, namely SSD, YOLOv8 and PIDNet, in addition, we improve semantic segmentation-based methods by decoupling detection and classification, and we apply this improvement on PIDNet for comparison.
 
 
+## Visualization
+See [vis folder](material/vis), here are some examples:
+
+**midv500 card box, classes in midv2020 training set, all conditions**
+![](./material/vis/wrt_threshold/midv500_card_box_in2020_acc_allcond.png)
+
+**midv2019 card mask, classes not in midv2020 training set, wrt conditions**
+![](./material/vis/wrt_threshold/midv2019_card_mask_notin2020_acc.png)
+
+**midv2019 card box, mean iou for each condiion**
+![](./material/vis/wrt_condition/midv2019_card_box_acc_ioumean.png)
+
 ## Results
 
 ### classes in midv2020
