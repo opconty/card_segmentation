@@ -18,7 +18,7 @@ See [vis folder](material/vis), here are some examples:
 **midv2019 card mask, classes not in midv2020 training set, wrt conditions**
 ![](./material/vis/wrt_threshold/midv2019_card_mask_notin2020_acc.png)
 
-**midv2019 card box, mean iou for each condiion**
+**midv2019 card box, mean iou for each condition**
 ![](./material/vis/wrt_condition/midv2019_card_box_acc_ioumean.png)
 
 ## Results
